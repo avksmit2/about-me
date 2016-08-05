@@ -26,6 +26,10 @@ _{If there are any issues, questions or ideas regarding this application, contac
 
 _{Html, CSS and Bootstrap were used.}_
 
+## Link to GitHub
+
+_{avksmit2.github.io/my-first-webpage}
+
 ### License
 
 *{MIT}*
