@@ -1,23 +1,44 @@
-
-.header {
-  text-align: center;
-  color: purple;
-  font-family: fantasy;
-}
-#leftcol h3 {
-  font-family:fantasy;
+body{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 200%;
 }
 #leftcol {
-  margin-left: 20px;
-  margin-top: 10px;
+  margin: 20px;
   padding-left: 10px;
   border: 2px dashed blue;
-  background-color: #cce6ff;
+  /*background-color: #cce6ff;*/
+  font-weight: bolder;
+  font-size: 120%
 }
 #me {
   max-width: 100%;
   max-height: 100%;
   margin-top: 10px;
+}
+#name {
+  text-align: center;
+  color: purple;
+}
+#proj-name {
+  float: left;
+  width: 30%;
+  padding-left: -20px;
+  margin-left: -30px;
+}
+#proj-desc {
+  float:left;
+  width: 70%;
+  padding-left: 20px;
+  margin-right: -10px;
+}
+.projects {
+  border: 2px solid gray;
+  margin: 5px;
+}
+.headers {
+  font-family:fantasy;
+  font-weight: bolder;
 }
 .em {
   font-style: italic;
