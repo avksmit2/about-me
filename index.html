@@ -14,12 +14,35 @@
       AngieSmith.08
     </title>
   </head>
-  <body background="img/background.jpeg">
+  <body background="img/background.jpeg" alt="nature image">
     <div class="row">
       <div class="col-sm-12">
         <div class="row">
           <div class="col-xs-4 container" id="leftcol">
-            <img id="me" src="img/me2.jpg" alt="Image of me">
+            <div id="pic-carousel" class="carousel slide">
+              <ol class="carousel-indicators">
+                <li data-target="#pic-carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#pic-carousel" data-slide-to="1"></li>
+                <li data-target="#pic-carousel" data-slide-to="2"></li>
+              </ol>
+                <div class="carousel-inner">
+                  <div class="item active">
+                    <img class="me" src="img/me2.jpg" alt="Image of me">
+                  </div>
+                  <div class="item">
+                    <img class="me" src="img/me3.jpg" alt="Image of me">
+                  </div>
+                  <div class="item">
+                    <img class="me" src="img/me4.jpg" alt="Image of me">
+                  </div>
+                </div>
+              <a class="left carousel-control" href="#pic-carousel" data-slide="prev">
+                <span class="icon-prev"></span>
+              </a>
+              <a class="right carousel-control" href="#pic-carousel" data-slide="next">
+                <span class="icon-next"></span>
+              </a>
+            </div>
             <h3 class="headers">Skills</h3>
             <ul>
               <li>Proficient at Microsoft Word, Outlook, Excel and Access</li>
@@ -38,7 +61,7 @@
               <div id="projects">
                 <div class="col-xs-7.5">
                   <h3 class="headers">Projects I've Worked On</h3>
-                  <p><a href="https://github.com/avksmit2/pet-website">Pet Website: </a><strong>This project was one of my first</strong> and is pretty <em>simple</em>. It has two websites that are basically blogs about animals, with a lot of pictures. The site my-dog.html is specifically about my dog and index.html is a blog about my favorite dogs. There are links on both pages pointing to each other to move back and forther between them. I used html and css in this project.</p>
+                  <p><a href="https://github.com/avksmit2/pet-website" alt="pet-website link">Pet Website: </a><strong>This project was one of my first</strong> and is pretty <em>simple</em>. It has two websites that are basically blogs about animals, with a lot of pictures. The site my-dog.html is specifically about my dog and index.html is a blog about my favorite dogs. There are links on both pages pointing to each other to move back and forther between them. I used html and css in this project.</p>
                   <p><a href="https://github.com/avksmit2/WikipediaHome">WikipediaHome: </a>This project is an attempt to copy the layout and look of the Wikipedia home page. It does this by using Bootstrap's rows and columns as well as html and css. The links for Bootstrap are pasted in the head.</p>
                   <p><a href="https://github.com/avksmit2/vacation-site">vacation-site: </a>This project is about Costa Rica, a hopeful vacation spot. It is a little <em>more advanced</em> by using Bootstrap's rows and columns as well as a carousel. The links for Bootstrap are pasted in the head.</p>
                   <div id="links">
@@ -56,16 +79,20 @@
       <ol class="carousel-indicators">
         <li data-target="#about-carousel" data-slide-to="0" class="active"></li>
         <li data-target="#about-carousel" data-slide-to="1"></li>
+        <li data-target="#about-carousel" data-slide-to="2"></li>
       </ol>
       <div class="container">
         <div class="carousel-inner">
           <div class="item active">
-            <h3 class="headers"> My Background</h3>
-            <p>I was born in Rocksprings,WY. I moved to Kansas City, KS when I was 8, but kept the <span class="emote">small-town</span> girl persona even with the <span class="emote">big-town influences</span>. This means I still <span class="emote">love</span> to explore, hike, camp and be in nature.</p>
-            <p>After graduating high school, I lived in Florida, California and Washington. Out of all of the places I've lived, the Washington/Oregon area is my <span class="emote">favorite</span>. The people here are generally easy-going, genuine and interesting!</p>
-            <p>I took several college courses after high school, including general education and computer science. When I became a "Database Assistant", I took more computer science classes and found how much I enjoyed programming. Unfortunately, I still didn't know enough or have enough experience when my employer decided to re-assess my position and change it to a "Senior Programmer/Analyst" and I got laid off. Since then, I have been struggling to find a position that keeps my interest because I still want to program.</p>
+            <h3 class="headers">Professional History</h3>
+            <p>I took several college courses after high school, including general education and computer science. Most of my work history has been administrative and customer service. When I became a "Database Assistant", I took more computer science classes and found how much I enjoyed programming. Unfortunately, I still didn't know enough or have enough experience when my employer decided to re-assess my position and change it to a "Senior Programmer/Analyst" and I got laid off. Since then, I have been struggling to find a position that keeps my interest because I still want to program.</p>
             <p>Finally, my brother mentioned "coding bootcamps" and recommended I check out Epicodus. At first, I was leary as I wanted to learn as much as I could about programming. Eventually, after looking into getting my bachelor's degree in Software Development, I decided four months was much better and cheaper than four years.</p>
             <p>Thus, I am now at Epicodus and <scan class="emote">extremely</scan> excited for what the future holds for me!!</p>
+          </div>
+          <div class="item">
+            <h3 class="headers">Personal History</h3>
+            <p>I was born in Rocksprings,WY. I moved to Kansas City, KS when I was 8, but kept the <span class="emote">small-town</span> girl persona even with the <span class="emote">big-town influences</span>. This means I still <span class="emote">love</span> to explore, hike, camp and be in nature.</p>
+            <p>After graduating high school, I lived in Florida, California and Washington. Out of all of the places I've lived, the Washington/Oregon area is my <span class="emote">favorite</span>. The people here are generally easy-going, genuine and interesting!</p>
           </div>
           <div class="item">
             <div id="interests">
@@ -84,9 +111,6 @@
               <p>Sadly, I don't have many hobbies other than gaming on the PC. However, I have recently discovered crafting and hope to get more into that. Specifically, carving wood and painting.</p>
             </div>
           </div>
-          <!-- <div class="item active">
-            <h3>My Background</h3>
-          <div> -->
         </div>
       </div>
       <a class="left carousel-control" href="#about-carousel" data-slide="prev">
@@ -96,18 +120,5 @@
         <span class="icon-next"></span>
       </a>
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
   </body>
 </html>
