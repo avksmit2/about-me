@@ -3,14 +3,13 @@
   <head>
     <link href="my-style.css" rel="Stylesheet" Type="Text/css">
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <title>
       AngieSmith.08
     </title>
@@ -18,50 +17,64 @@
   <body background="img/background.jpeg">
     <div class="row">
       <div class="col-sm-12">
-
         <div class="row">
-          <div class="col-xs-4" id="leftcol">
+          <div class="col-xs-4 container" id="leftcol">
             <img id="me" src="img/me2.jpg" alt="Image of me">
             <h3 class="headers">Skills</h3>
             <ul>
               <li>Proficient at Microsoft Word, Outlook, Excel and Access</li>
               <li>80 WPM typing speed</li>
-              <li><span class="em">Strong</span> aptitude with computer programs</li>
-              <li><span class="em">Excellent</span> customer service skills</li>
+              <li><span class="emote">Strong</span> aptitude with computer programs</li>
+              <li><span class="emote">Excellent</span> customer service skills</li>
             </ul>
             <h3 class="headers">Certificates:</h3>
             <ul>
               <li>MTA: Database Fundamentals</li>
             </ul>
           </div>
-          <div class="col-sm-7.5">
-            <h1 id="name" class="headers">Angela Smith-Vande Krol</h1>
-            <h3 class="headers">Projects I've Worked On</h3>
+          <div class="col-xs-7.5 container">
+            <h1 class="header name">Angela Smith-Vande Krol</h1>
             <div class="row">
-              <div class="col-sm-4 projects">
-                <h4>Description</h4>
-                <ul id="proj-name">
-                  <li>Pet Website:</li>
-                </ul>
-                <p id="proj-desc">
-                  This project has two websites that are basically blogs about animals. my-dog.html is specifically about my dog and index.html is a blog about my favorite dogs. I used html and css in this project.
-                </p>
-              </div>
-              <div class="col-sm-2 projects">
-                <h4>Link to Project</h4>
-                <ul>
-                  <li></li>
-                </ul>
+              <div id="projects">
+                <div class="col-xs-7.5">
+                  <h3 class="headers">Projects I've Worked On</h3>
+                  <p><a href="https://github.com/avksmit2/pet-website">Pet Website: </a><strong>This project was one of my first</strong> and is pretty <em>simple</em>. It has two websites that are basically blogs about animals, with a lot of pictures. The site my-dog.html is specifically about my dog and index.html is a blog about my favorite dogs. There are links on both pages pointing to each other to move back and forther between them. I used html and css in this project.</p>
+                  <p><a href="https://github.com/avksmit2/WikipediaHome">WikipediaHome: </a>This project is an attempt to copy the layout and look of the Wikipedia home page. It does this by using Bootstrap's rows and columns as well as html and css. The links for Bootstrap are pasted in the head.</p>
+                  <p><a href="https://github.com/avksmit2/vacation-site">vacation-site: </a>This project is about Costa Rica, a hopeful vacation spot. It is a little <em>more advanced</em> by using Bootstrap's rows and columns as well as a carousel. The links for Bootstrap are pasted in the head.</p>
+                </div>
               </div>
             </div>
           </div>
         </div>
-
-
-
       </div>
     </div>
-
+    <h1 class="header name">All about me!</h1>
+    <div id="about-carousel" class="carousel slide">
+      <div class="container">
+        <div class="carousel-inner">
+          <div class="item active">
+            <h3 class="headers"> My Background</h3>
+            <p>I was born in Rocksprings,WY. I moved to Kansas City, KS when I was 8, but kept the <span class="emote">small-town</span> girl persona even with the <span class="emote">big-town influences</span>. This means I still <span class="emote">love</span> to explore, hike, camp and be in nature.</p>
+            <p>After graduating high school, I lived in Florida, California and Washington. Out of all of the places I've lived, the Washington/Oregon area is my <span class="emote">favorite</span>. The people here are generally easy-going, genuine and interesting!</p>
+            <p>I took several college courses after high school, including general education and computer science. When I became a "Database Assistant", I took more computer science classes and found how much I enjoyed programming. Unfortunately, I still didn't know enough or have enough experience when my employer decided to re-assess my position and change it to a "Senior Programmer/Analyst" and I got laid off. Since then, I have been struggling to find a position that keeps my interest because I still want to program.</p>
+            <p>Finally, my brother mentioned "coding bootcamps" and recommended I check out Epicodus. At first, I was leary as I wanted to learn as much as I could about programming. Eventually, after looking into getting my bachelor's degree in Software Development, I decided four months was much better and cheaper than four years.</p>
+            <p>Thus, I am now at Epicodus and <scan class="emote">extremely</scan> excited for what the future holds for me!!</p>
+          </div>
+          <div class="item">
+            <h3 class="headers">My Interests</h3>
+          </div>
+          <!-- <div class="item active">
+            <h3>My Background</h3>
+          <div> -->
+        </div>
+      </div>
+      <a class="left carousel-control" href="#about-carousel" data-slide="prev">
+        <span class="icon-prev"></span>
+      </a>
+      <a class="right carousel-control" href="#about-carousel" data-slide="next">
+        <span class="icon-next"></span>
+      </a>
+    </div>
 
 
 
