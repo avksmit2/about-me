@@ -18,12 +18,7 @@ body{
   margin-left: auto;
   margin-right: auto;
 }
-.name {
-  text-align: center;
-  color: purple;
-  font-size: 400%;
-  font-family: fantasy;
-}
+
 #projects {
   text-align: justify;
   font-size: large;
@@ -34,10 +29,26 @@ body{
   text-align: center;
 }
 #about-carousel {
-  text-align: center;
   font-size: 120%;
   color: #ffff00;
   font-family: monospace;
+}
+#interests {
+  float: left;
+  width: 49%;
+}
+#hobbies {
+  float: right;
+  width: 49%;
+}
+.name {
+  text-align: center;
+  color: purple;
+  font-size: 400%;
+  font-family: fantasy;
+}
+.carousel-inner h3 {
+  text-align: center;
 }
 .headers {
   font-family:fantasy;
