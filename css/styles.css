@@ -7,14 +7,21 @@ body{
   min-width: 100%;
 }
 #leftcol {
-  margin: 20px;
+  margin: 2%;
   padding-left: 10px;
   border: 2px dashed blue;
   font-size: 120%;
   color:blue;
 }
+.item {
+  padding-bottom: 10px;
+  height: 200px;
+}
+#about-carousel .container {
+  width: 75%;
+}
 .me {
-  width: 200px;
+  width: 50%;
   height: auto;
   margin-top: 10px;
   display: block;
@@ -32,19 +39,11 @@ body{
 }
 #about-carousel {
   font-size: 120%;
-  color: #ffff00;
+  color: blue;
   font-family: monospace;
 }
 .carousel-indicators {
   top:-20px;
-}
-#interests {
-  float: left;
-  width: 49%;
-}
-#hobbies {
-  float: right;
-  width: 49%;
 }
 #links {
   font-size: 90%;
@@ -61,8 +60,11 @@ body{
 }
 .headers {
   font-family:fantasy;
-  font-weight: bolder;
   font-size: 200%;
+}
+.leftCol_headers {
+  font-family:fantasy;
+  font-size: 100%;
 }
 .emote {
   font-style: italic;
