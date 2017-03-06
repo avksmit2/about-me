@@ -6,7 +6,10 @@ body{
   height: 100%;
   width: 100%;
   font-family:sans-serif;
-  font-size: 150%;
+  font-size: 200%;
+}
+a {
+  color: #FF9800;
 }
 .name {
   text-align: center;
@@ -26,7 +29,7 @@ body{
   padding-left: 10px;
   border: 2px dashed blue;
   color:blue;
-  font-size: 80%;
+  font-size: 100%;
 }
 .me {
   width: 50%;
@@ -35,6 +38,7 @@ body{
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 25%;
 }
 #about {
   text-align: justify;
@@ -44,13 +48,16 @@ body{
 #links {
   font-style: italic;
   font-weight: bold;
+  text-align: center;
 }
 .carousel-indicators {
   top:0px;
 }
-.carousel-inner h3 {
-  text-align: center;
+.carousel-inner {
+  margin-top: 5%;
+  text-align: justify;
 }
 #projects-carousel .container {
   width: 75%;
+  height: 300px;
 }
