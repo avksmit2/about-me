@@ -1,6 +1,6 @@
-# _Me_
+# _Angela Smith's Portfolio_
 
-#### _Website with details about Angela Smith and a display of her projects, {March 6, 2017}_
+#### _Website with details about Angela Smith and a display of her projects, March 6, 2017_
 
 #### By _**Angela Smith**_
 
@@ -28,7 +28,7 @@ _Html, CSS and Bootstrap were used._
 
 ## Link to GitHub
 
-_avksmit2.github.io/my-first-webpage
+[Link to GitHub] (avksmit2.github.io/about-me)
 
 ### License
 
