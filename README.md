@@ -28,7 +28,7 @@ _Html, CSS and Bootstrap were used._
 
 ## Link to GitHub
 
-[Link to GitHub] (avksmit2.github.io/about-me)
+[Link to Site] (https://avksmit2.github.io/about-me/)
 
 ### License
 
