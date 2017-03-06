@@ -10,6 +10,25 @@
     <title>Angela Smith Portfolio</title>
   </head>
   <body background="img/proff_background.jpg" alt="background">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand name" href="#">Angela Smith-Vande Krol</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#projects">My Projects</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <div class="row">
       <div class="col-sm-12">
         <div class="row">
@@ -40,49 +59,39 @@
               <li>MTA: Database Fundamentals</li>
             </ul>
           </div>
-          <div class="col-xs-7.5 container">
-            <h1 class="header name">Angela Smith-Vande Krol</h1>
-            <div class="row">
-              <div id="projects">
-                <div class="col-xs-7.5">
-                  <h3 class="headers">Projects I've Worked On</h3>
-                  <p><a href="https://github.com/avksmit2/pet-website" alt="pet-website link">Pet Website: </a><strong>This project was one of my first</strong> and is pretty <em>simple</em>. It has two websites that are basically blogs about animals, with a lot of pictures. The site my-dog.html is specifically about my dog and index.html is a blog about my favorite dogs. There are links on both pages pointing to each other to move back and forther between them. I used html and css in this project.</p>
-                  <p><a href="https://github.com/avksmit2/WikipediaHome">WikipediaHome: </a>This project is an attempt to copy the layout and look of the Wikipedia home page. It does this by using Bootstrap's rows and columns as well as html and css. The links for Bootstrap are pasted in the head.</p>
-                  <p><a href="https://github.com/avksmit2/vacation-site">vacation-site: </a>This project is about Costa Rica, a hopeful vacation spot. It is a little <em>more advanced</em> by using Bootstrap's rows and columns as well as a carousel. The links for Bootstrap are pasted in the head.</p>
-                  <div id="links">
-                    <h3>Links to personal pages: <a href="https://www.facebook.com/profile.php?id=100003161388376">Facebook, </a><a href="https://www.linkedin.com/in/angela-smith-38290255?trk=hp-identity-name">Linked In</a></h3>
-                  </div>
-                </div>
-              </div>
+          <div class="col-xs-7.5 container" id="about">
+            <h3 class="headers">Professional History</h3>
+            <p>I am absolutely passionate about programming. Most of my professional career has been in administrative and customer service, but I got a taste of programming as a database specialist. In this position, I had many years of experience developing Access and Excel databases. I took several classes in computer science and came to understand relational databases and object-oriented design. Because I had to learn on the job and didn’t have many resources other than the internet to figure out how to do the things requested, I developed great research and debugging skills and was able to accomplish most of the goals that were set before me. I fell in love with programming, and wanted to learn more in order to begin my career as a software developer.</p>
+            <p>When I discovered Epicodus, a coding bootcamp, I jumped at the chance. There, I learned the fundamentals about programming in HTML5 but focused on PHP and Javascript. My research and problem-solving skills were enhanced because the curriculum provided a broad understanding of the material but the projects were more complicated. The pair-programming learning format taught us to work together to gain a deeper understanding of the material through research. It also enforced great communication skills.  At the end of our training, I was provided with an internship opportunity as a software developer where my desire to program was very much reinforced.</p>
+            <div id="links">
+              Links to personal pages: <a href="https://github.com/avksmit2">Github, </a><a href="https://www.linkedin.com/in/angela-smith-vandekrol/">LinkedIn</a>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <h1 class="header name">All about me!</h1>
-    <div id="about-carousel" class="carousel slide">
+    <h1 class="headers text-center" id="projects">My Projects</h1>
+    <div id="projects-carousel" class="carousel slide">
       <ol class="carousel-indicators">
-        <li data-target="#about-carousel" data-slide-to="0" class="active"></li>
-        <li data-target="#about-carousel" data-slide-to="1"></li>
+        <li data-target="#projects-carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#projects-carousel" data-slide-to="1"></li>
       </ol>
       <div class="container">
         <div class="carousel-inner">
           <div class="item active">
-            <h3 class="headers">Professional History</h3>
-            <p>I am absolutely passionate about programming. Most of my professional career has been in administrative and customer service, but I got a taste of programming as a database specialist. In this position, I had many years of experience developing Access and Excel databases. I took several classes in computer science and came to understand relational databases and object-oriented design. Because I had to learn on the job and didn’t have many resources other than the internet to figure out how to do the things requested, I developed great research and debugging skills and was able to accomplish most of the goals that were set before me. I fell in love with programming, and wanted to learn more in order to begin my career as a software developer.</p>
-            <p>When I discovered Epicodus, a coding bootcamp, I jumped at the chance. There, I learned the fundamentals about programming in HTML5 but focused on PHP and Javascript. My research and problem-solving skills were enhanced because the curriculum provided a broad understanding of the material but the projects were more complicated. The pair-programming learning format taught us to work together to gain a deeper understanding of the material through research. It also enforced great communication skills.  At the end of our training, I was provided with an internship opportunity as a software developer where my desire to program was very much reinforced.</p>
+            <a href="https://github.com/avksmit2/ember-game-review" alt="ember_game_review link" class="headers">PC Game Review:</a>
+            <p>Created with Ember, this application will allow users to rate PC games and write reviews. The site uses an Ember service so the users can create a list of their favorite games. The users can also enter a new game to review.</p>
           </div>
           <div class="item">
-            <h3 class="headers">Personal History</h3>
-            <p>I was born in Rocksprings, WY. I moved to Kansas City, KS when I was 8, but kept the small-town girl persona even with the big-town influences. This means I still love to explore, hike, camp and be in nature.</p>
-            <p>After graduating high school, I lived in Florida, California and Washington. Out of all of the places I've lived, the Washington/Oregon area is my favorite. The people here are generally easy-going, genuine and interesting!</p>
+            <a href="https://github.com/avksmit2/WikipediaHome">WikipediaHome: </a>
+            <p>This project is an attempt to copy the layout and look of the Wikipedia home page. It does this by using Bootstrap's rows and columns as well as html and css. The links for Bootstrap are pasted in the head.</p>
           </div>
         </div>
       </div>
-      <a class="left carousel-control" href="#about-carousel" data-slide="prev">
+      <a class="left carousel-control" href="#projects-carousel" data-slide="prev">
         <span class="icon-prev"></span>
       </a>
-      <a class="right carousel-control" href="#about-carousel" data-slide="next">
+      <a class="right carousel-control" href="#projects-carousel" data-slide="next">
         <span class="icon-next"></span>
       </a>
     </div>
