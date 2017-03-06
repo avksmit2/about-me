@@ -5,6 +5,7 @@ body{
   height: 100%;
   width: 100%;
   min-width: 100%;
+  font-family:sans-serif;
 }
 #leftcol {
   margin: 2%;
@@ -12,10 +13,6 @@ body{
   border: 2px dashed blue;
   font-size: 120%;
   color:blue;
-}
-.item {
-  padding-bottom: 10px;
-  height: 200px;
 }
 #about-carousel .container {
   width: 75%;
@@ -39,33 +36,31 @@ body{
 }
 #about-carousel {
   font-size: 120%;
-  color: blue;
-  font-family: monospace;
+  /*color: blue;
+  font-family: monospace;*/
 }
 .carousel-indicators {
   top:-20px;
 }
 #links {
   font-size: 90%;
-  font-family: Century gothic;
+  /*font-family: Century gothic;*/
 }
 .name {
   text-align: center;
-  color: purple;
+  /*color: purple;*/
   font-size: 400%;
-  font-family: fantasy;
+  /*font-family: fantasy;*/
+  margin-bottom: 3%;
 }
 .carousel-inner h3 {
   text-align: center;
 }
 .headers {
-  font-family:fantasy;
+  /*font-family:fantasy;*/
   font-size: 200%;
 }
 .leftCol_headers {
-  font-family:fantasy;
+  /*font-family:fantasy;*/
   font-size: 100%;
-}
-.emote {
-  font-style: italic;
 }
