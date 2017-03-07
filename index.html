@@ -9,7 +9,7 @@
     <script src="js/scripts.js"></script>
     <title>Angela Smith Portfolio</title>
   </head>
-  <body background="img/proff_background.jpg" alt="background">
+  <body background="img/proff_background2.jpg" alt="background">
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container-fluid">
         <div class="navbar-header">
@@ -22,10 +22,9 @@
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Home</a></li>
+            <li><a href="https://github.com/avksmit2" target="_blank">Github</a></li>
+            <li><a href="https://www.linkedin.com/in/angela-smith-vandekrol/" target="_blank">LinkedIn</a></li>
             <li><a href="#projects">My Projects</a></li>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#contact">Contact Me</a></li>
           </ul>
         </div>
       </div>
@@ -36,6 +35,9 @@
           <div class="col-xs-4 container" id="leftcol">
             <div id="pic_me">
               <img class="me" src="img/me1.jpg" alt="Image of me">
+            </div>
+            <div id="email" class="text-center">
+              Email: avksmit2@gmail.com
             </div>
             <h3 class="leftCol_headers">Skills include (but not limited to):</h3>
             <ul>
@@ -70,50 +72,45 @@
     </div>
     <hr>
     <h1 class="headers text-center" id="projects">My Projects</h1>
-    <div id="projects-carousel" class="carousel slide">
-      <ol class="carousel-indicators">
-        <li data-target="#projects-carousel" data-slide-to="0" class="active"></li>
-        <li data-target="#projects-carousel" data-slide-to="1"></li>
-        <li data-target="#projects-carousel" data-slide-to="2"></li>
-        <li data-target="#projects-carousel" data-slide-to="3"></li>
-        <li data-target="#projects-carousel" data-slide-to="4"></li>
-      </ol>
-      <div class="container">
-        <div class="carousel-inner">
-          <div class="item active">
-            <a href="https://github.com/avksmit2/ember-game-review" target="_blank" alt="ember_game_review link" class="headers">PC Game Review:</a>
-            <p>Created with Ember, this application will allow users to rate PC games and write reviews. The site uses an Ember service so the users can create a list of their favorite games. The users can also enter a new game to review.</p>
-          </div>
-          <div class="item">
-            <a href="https://github.com/avksmit2/ember_shop-local" target="_blank" alt="shop_local link" class="headers">Shop Local:</a>
-            <p>This site was created with Ember. It is basically a directory for local businesses. Businesses can submit an application to be added to the list of local businesses, and customers can search for their local businesses by various filters.</p>
-          </div>
-          <div class="item">
-            <a href="https://github.com/avksmit2/grocery-store-app" target="_blank" alt="_shopper link" class="headers">_Shopper:</a>
-            <p>A website create with PHP to allow a user to shop online. This app contains two discreet user interfaces for separate admin and customer experiences, using php session variables to control functionality for both types of users. An admin can log in and be able to control inventory. The user can set up a personal account, shop and checkout.</p>
-          </div>
-          <div class="item">
-            <a href="https://github.com/avksmit2/angular-meal-tracker" target="_blank" alt="meal_tracker link" class="headers">Meal Tracker:</a>
-            <p>This website was created with Angular 2. It allows users to enter details about their meals, including the calories and when they ate. The users can edit what they've entered, add more entries and sort/filter the entries.</p>
-          </div>
-          <div class="item">
-            <a href="https://github.com/avksmit2/neighbors" target="_blank" alt="neighbors link" class="headers">Neighbors Gathering:</a>
+    <div class="container">
+      <div class="project_description">
+        <div class="project_description">
+          <div class="project_description">
+            <h3>IFuel Medical:</h3>
+            <p>Technologies Used: PHP, vue.js, JQuery, SASS, Bootstrap</p>
+            <p>A site worked on while an intern at Fuel Medical. Fuel employees can create work orders that include various departments. Departments chosen to be part of the work order will be displayed in the progress bar and when a section of the progress bar has been completed, the color background color will be black. Validation is performed when a user moves to the next section as well as when they submit the work order. Code is not available.</p>
+            <a href="img\IFuel_WO_Start.png" target="_blank"><img src="img\IFuel_WO_Start.png" alt="IFuel Start Section" class="screen_shots"></a>
+            <a href="img\IFuel_WO_DesignSection.png" target="_blank"><img src="img\IFuel_WO_DesignSection.png" alt="IFuel Design Section" class="screen_shots"></a>
+            <a href="img\IFuel_WO_WebSection.png" target="_blank"><img src="img\IFuel_WO_WebSection.png" alt="IFuel Web Section" class="screen_shots"></a>
+            <a href="img\IFuel_WO_ReviewSection.png" target="_blank"><img src="img\IFuel_WO_ReviewSection.png" alt="IFuel Review Section" class="screen_shots"></a>
+            <h3>Neighbors Gathering:</h3>
+            <p>Technologies Used: PHP, MySQL, Drupal, SASS, Bootstrap</p>
             <p>A website created in Drupal that promotes neighborhood gatherings and intentional community. A user can learn about what these are and why they are important, as well as get tips on how to set up their own or find a group in their area. An existing group can also enter their information for users to discover and join.</p>
+            <a href="https://github.com/avksmit2/neighbors" target="_blank" alt="neighbors link" class="project_code">CODE</a>
           </div>
+          <h3>Meal Tracker:</h3>
+          <p>Technologies Used: TypeScript, Angular 2, SASS, Bootstrap, Node.js, gulp, Bower</p>
+          <p>This website was created with Angular 2. It allows users to enter details about their meals, including the calories and when they ate. The users can edit what they've entered, add more entries and sort/filter the entries.</p>
+          <a href="https://github.com/avksmit2/angular-meal-tracker" target="_blank" alt="meal_tracker link" class="project_code">CODE</a>
         </div>
+        <h3>PC Game Review:</h3>
+        <p>Technologies Used: Firebase, Ember, SASS, Bootstrap, Bower</p>
+        <p>This application allows users to rate PC games and write reviews. The site uses an Ember service so the users can create a list of their favorite games. The users can also enter a new game to review.</p>
+        <a href="https://github.com/avksmit2/ember-game-review" target="_blank" alt="ember_game_review link" class="project_code">CODE</a>
       </div>
-      <a class="left carousel-control" href="#projects-carousel" data-slide="prev">
-        <span class="icon-prev"></span>
-      </a>
-      <a class="right carousel-control" href="#projects-carousel" data-slide="next">
-        <span class="icon-next"></span>
-      </a>
+      <div class="project_description">
+        <h3>Shop Local:</h3>
+        <p>Technologies Used: Firebase, Ember, SASS, Bootstrap, Bower</p>
+        <p>This site is basically a directory for local businesses. Businesses can submit an application to be added to the list of local businesses, and customers can search for their local businesses by various filters.</p>
+        <a href="https://github.com/avksmit2/ember_shop-local" target="_blank" alt="shop_local link" class="project_code">CODE</a>
+      </div>
+      <div class="project_description">
+        <h3>_Shopper:</h3>
+        <p>Technologies Used: PHP, TWIG, Silex, mySQL, Bootstrap, JS, jQuery</p>
+        <p>A website to allow a user to shop online. This app contains two discreet user interfaces for separate admin and customer experiences, using php session variables to control functionality for both types of users. An admin can log in and be able to control inventory. The user can set up a personal account, shop and checkout.</p>
+        <a href="https://github.com/avksmit2/grocery-store-app" target="_blank" alt="_shopper link" class="project_code">CODE</a>
+      </div>
     </div>
     <hr>
-    <h1 class="headers text-center" id="contact">Contact Me</h1>
-    <div id="links">
-      Email: avksmit2@gmail.com <br>
-      <a href="https://github.com/avksmit2" target="_blank">Github, </a><a href="https://www.linkedin.com/in/angela-smith-vandekrol/" target="_blank">LinkedIn</a>
-    </div>
   </body>
 </html>
