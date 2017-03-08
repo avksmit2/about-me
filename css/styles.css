@@ -47,10 +47,8 @@ body{
   border-radius: 5px;
   padding: 5px;
 }
-.item .screen_shots {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.screen_shots {
+  width: 45%;
   margin: 10px;
 }
 .carousel {
