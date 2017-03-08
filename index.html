@@ -32,35 +32,37 @@
     <div class="row">
       <div class="col-sm-12">
         <div class="row">
-          <div class="col-xs-4 container" id="leftcol">
+          <div class="col-xs-4 container">
             <div id="pic_me">
               <img class="me" src="img/me1.jpg" alt="Image of me">
             </div>
             <div id="email" class="text-center">
               Email: avksmit2@gmail.com
             </div>
-            <h3 class="leftCol_headers">Skills include (but not limited to):</h3>
-            <ul>
-              <li>Software Development</li>
-              <li>Web Design</li>
-              <li>Object-Oriented Database</li>
-              <li>Database Management</li>
-              <li>Data Analysis</li>
-              <li>Microsoft Office</li>
-              <li>Customer Service</li>
-            </ul>
-            <h3 class="leftCol_headers">Programming Lanuguages include (but not limited to):</h3>
-            <ul>
-              <li>HTML5</li>
-              <li>PHP</li>
-              <li>JavaScript</li>
-              <li>JQuery</li>
-              <li>SQL</li>
-            </ul>
-            <h3 class="leftCol_headers">Certificates:</h3>
-            <ul>
-              <li>MTA: Database Fundamentals</li>
-            </ul>
+            <div id="leftcol">
+              <h3 class="leftCol_headers">Skills include (but not limited to):</h3>
+              <ul>
+                <li>Software Development</li>
+                <li>Web Design</li>
+                <li>Object-Oriented Database</li>
+                <li>Database Management</li>
+                <li>Data Analysis</li>
+                <li>Microsoft Office</li>
+                <li>Customer Service</li>
+              </ul>
+              <h3 class="leftCol_headers">Programming Lanuguages include (but not limited to):</h3>
+              <ul>
+                <li>HTML5</li>
+                <li>PHP</li>
+                <li>JavaScript</li>
+                <li>JQuery</li>
+                <li>SQL</li>
+              </ul>
+              <h3 class="leftCol_headers">Certificates:</h3>
+              <ul>
+                <li>MTA: Database Fundamentals</li>
+              </ul>
+            </div>
           </div>
           <div class="col-xs-7.5 container" id="about">
             <h3 class="headers">Professional History</h3>
@@ -74,25 +76,53 @@
     <h1 class="headers text-center" id="projects">My Projects</h1>
     <div class="container">
       <div class="project_description">
-        <div class="project_description">
-          <div class="project_description">
-            <h3>IFuel Medical:</h3>
-            <p>Technologies Used: PHP, vue.js, JQuery, SASS, Bootstrap</p>
-            <p>A site worked on while an intern at Fuel Medical. Fuel employees can create work orders that include various departments. Departments chosen to be part of the work order will be displayed in the progress bar and when a section of the progress bar has been completed, the color background color will be black. Validation is performed when a user moves to the next section as well as when they submit the work order. Code is not available.</p>
-            <a href="img\IFuel_WO_Start.png" target="_blank"><img src="img\IFuel_WO_Start.png" alt="IFuel Start Section" class="screen_shots"></a>
-            <a href="img\IFuel_WO_DesignSection.png" target="_blank"><img src="img\IFuel_WO_DesignSection.png" alt="IFuel Design Section" class="screen_shots"></a>
-            <a href="img\IFuel_WO_WebSection.png" target="_blank"><img src="img\IFuel_WO_WebSection.png" alt="IFuel Web Section" class="screen_shots"></a>
-            <a href="img\IFuel_WO_ReviewSection.png" target="_blank"><img src="img\IFuel_WO_ReviewSection.png" alt="IFuel Review Section" class="screen_shots"></a>
-            <h3>Neighbors Gathering:</h3>
-            <p>Technologies Used: PHP, MySQL, Drupal, SASS, Bootstrap</p>
-            <p>A website created in Drupal that promotes neighborhood gatherings and intentional community. A user can learn about what these are and why they are important, as well as get tips on how to set up their own or find a group in their area. An existing group can also enter their information for users to discover and join.</p>
-            <a href="https://github.com/avksmit2/neighbors" target="_blank" alt="neighbors link" class="project_code">CODE</a>
+        <h3>IFuel Medical:</h3>
+        <p>Technologies Used: PHP, vue.js, JQuery, SASS, Bootstrap</p>
+        <p>A site worked on while an intern at Fuel Medical. Fuel employees can create work orders that include various departments. Departments chosen to be part of the work order will be displayed in the progress bar and when a section of the progress bar has been completed, the background color will be black. Validation is performed when a user moves to the next section as well as when they submit the work order. Code is not available.</p>
+        <div id="screen_shots-carousel" class="carousel slide">
+          <ol class="carousel-indicators">
+            <li data-target="#screen_shots-carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#screen_shots-carousel" data-slide-to="1"></li>
+            <li data-target="#screen_shots-carousel" data-slide-to="2"></li>
+            <li data-target="#screen_shots-carousel" data-slide-to="3"></li>
+          </ol>
+          <div class="container">
+            <div class="carousel-inner">
+              <div class="item active screen_shots">
+                <a href="img\IFuel_WO_Start.png" target="_blank"><img src="img\IFuel_WO_Start.png" alt="IFuel Start Section"></a>
+              </div>
+              <div class="item screen_shots">
+                <a href="img\IFuel_WO_DesignSection.png" target="_blank"><img src="img\IFuel_WO_DesignSection.png" alt="IFuel Design Section"></a>
+              </div>
+              <div class="item screen_shots">
+                <a href="img\IFuel_WO_WebSection.png" target="_blank"><img src="img\IFuel_WO_WebSection.png" alt="IFuel Web Section"></a>
+              </div>
+              <div class="item screen_shots">
+                <a href="img\IFuel_WO_ReviewSection.png" target="_blank"><img src="img\IFuel_WO_ReviewSection.png" alt="IFuel Review Section"></a>
+              </div>
+            </div>
           </div>
-          <h3>Meal Tracker:</h3>
-          <p>Technologies Used: TypeScript, Angular 2, SASS, Bootstrap, Node.js, gulp, Bower</p>
-          <p>This website was created with Angular 2. It allows users to enter details about their meals, including the calories and when they ate. The users can edit what they've entered, add more entries and sort/filter the entries.</p>
-          <a href="https://github.com/avksmit2/angular-meal-tracker" target="_blank" alt="meal_tracker link" class="project_code">CODE</a>
+          <a class="left carousel-control" href="#screen_shots-carousel" data-slide="prev">
+            <span class="icon-prev"></span>
+          </a>
+          <a class="right carousel-control" href="#screen_shots-carousel" data-slide="next">
+            <span class="icon-next"></span>
+          </a>
         </div>
+      </div>
+      <div class="project_description">
+        <h3>Neighbors Gathering:</h3>
+        <p>Technologies Used: PHP, MySQL, Drupal, SASS, Bootstrap</p>
+        <p>A website that promotes neighborhood gatherings and intentional community. A user can learn about what these are and why they are important, as well as get tips on how to set up their own or find a group in their area. An existing group can also enter their information for users to discover and join.</p>
+        <a href="https://github.com/avksmit2/neighbors" target="_blank" alt="neighbors link" class="project_code">CODE</a>
+      </div>
+      <div class="project_description">
+        <h3>Meal Tracker:</h3>
+        <p>Technologies Used: TypeScript, Angular 2, SASS, Bootstrap, Node.js, gulp, Bower</p>
+        <p>This website that allows users to enter details about their meals, including the calories and when they ate. The users can edit what they've entered, add more entries and sort/filter the entries.</p>
+        <a href="https://github.com/avksmit2/angular-meal-tracker" target="_blank" alt="meal_tracker link" class="project_code">CODE</a>
+      </div>
+      <div class="project_description">
         <h3>PC Game Review:</h3>
         <p>Technologies Used: Firebase, Ember, SASS, Bootstrap, Bower</p>
         <p>This application allows users to rate PC games and write reviews. The site uses an Ember service so the users can create a list of their favorite games. The users can also enter a new game to review.</p>
@@ -109,6 +139,13 @@
         <p>Technologies Used: PHP, TWIG, Silex, mySQL, Bootstrap, JS, jQuery</p>
         <p>A website to allow a user to shop online. This app contains two discreet user interfaces for separate admin and customer experiences, using php session variables to control functionality for both types of users. An admin can log in and be able to control inventory. The user can set up a personal account, shop and checkout.</p>
         <a href="https://github.com/avksmit2/grocery-store-app" target="_blank" alt="_shopper link" class="project_code">CODE</a>
+      </div>
+      <div class="project_description">
+        <h3>Ping Pong:</h3>
+        <p>Technologies Used: Bootstrap, JQuery</p>
+        <p>A beginner's site to practice the use of JQuery and CSS. The user is prompted to give a number and a list of numbers will be displayed where 3, 5 and 15 will show either "ping", "pong", or "ping-pong". To add complexity, a picture is also displayed next to these.</p>
+        <a href="https://github.com/avksmit2/grocery-store-app" target="_blank" alt="ping-pong link" class="project_code">CODE</a>
+        <a href="https://avksmit2.github.io/ping-pong/" target="_blank" alt="ping-pong site" class="project_code">SITE</a>
       </div>
     </div>
     <hr>
