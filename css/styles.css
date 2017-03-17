@@ -19,7 +19,9 @@ body{
   text-align: center;
 }
 .leftCol_headers {
-  font-size: 100%;
+  font-family: cursive;
+  font-size: 125%;
+  text-align: center;
 }
 #leftcol {
   margin: 2%;
@@ -36,6 +38,12 @@ body{
   margin-right: auto;
   border-radius: 20px;
 }
+#email {
+  margin-top: 5px;
+  color: #FF9800;
+  font-weight: bold;
+  font-size: 115%;
+}
 #about {
   text-align: justify;
   margin-left: auto;
@@ -48,8 +56,9 @@ body{
   padding: 5px;
 }
 .screen_shots {
-  width: 45%;
-  margin: 10px;
+  height:180px;
+  width:30%;
+  margin: 5px;
 }
 .carousel {
   width: 50%;
