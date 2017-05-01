@@ -34,4 +34,4 @@ _Html, CSS and Bootstrap were used._
 
 *MIT*
 
-Copyright (c) 2016 **_Angela Smith_**
+Copyright (c) 2017 **_Angela Smith_**
